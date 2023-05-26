@@ -2,11 +2,9 @@
     "name": "express-locallibrary",
     "version": "1.0.0",
     "description": "",
-    "main": "app.js",
+    "main": "./bin/www",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node ./bin/www",
-        "build": "npm install --omit=dev"
+        "start": "node ./bin/www"
     },
     "keywords": [
         "tutorial",
@@ -35,12 +33,5 @@
         "nodemon": "^2.0.22",
         "ts-node": "^10.9.1",
         "typescript": "^5.0.4"
-    },
-    "engines": {
-        "node": "v20.0.0",
-        "npm": "9.6.4"
-    },
-    "config": {
-        "production": ""
     }
 }

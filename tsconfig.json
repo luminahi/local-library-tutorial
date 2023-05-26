@@ -7,6 +7,6 @@
         "strict": true,
         "skipLibCheck": true
     },
-    "include": ["/**/*.ts", "bin/www"],
+    "include": ["/**/*.ts"],
     "exclude": ["node_modules"]
 }
