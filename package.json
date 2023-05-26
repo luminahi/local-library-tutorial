@@ -37,7 +37,8 @@
         "typescript": "^5.0.4"
     },
     "engines": {
-        "node": "20.0.0"
+        "node": "v20.0.0",
+        "npm": "9.6.4"
     },
     "config": {
         "production": ""
